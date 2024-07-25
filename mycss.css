@@ -1,0 +1,55 @@
+h3{
+    color: green;
+}
+
+li {
+    list-style-type: none;
+    color: red;
+}
+
+/* class 선택자 */
+.square {
+    list-style-type: square;
+}
+
+.roman {
+    list-style-type: upper-roman;
+    color: blue;
+}
+
+/* id 선택자 */
+#first {
+    color: pink;
+}
+
+/* tag/class/id 를 지정해서 특정범위 지정 */
+li.square#first {
+    font-size: 50px;
+}
+
+/* 링크의 색 + 방문한 후 색 표시 */
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+div.square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.margin {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
